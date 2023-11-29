@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     public float moveSpeed = 5f; // Adjust this value to control the player's movement speed.
 
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
 
     void Start()
     {
@@ -14,6 +14,11 @@ public class Movement : MonoBehaviour
     }
 
     void Update()
+    {
+        Move();
+    }
+
+    void Move()
     {
         // Input handling for movement
         float horizontalInput = Input.GetAxis("Horizontal");
