@@ -6,6 +6,8 @@ public class DisplayText : MonoBehaviour
     // Reference to the TextMeshProUGUI component in the Unity UI
     public TextMeshProUGUI textBox;
     private float clearDelay = 5f;
+    public AudioSource writer;
+    public AudioClip typeDing;
 
     public void fishInfo(string info)
     {
@@ -18,6 +20,7 @@ public class DisplayText : MonoBehaviour
         {
             // Set the text of the TextMeshProUGUI component to the desired string
             textBox.text = info;
+            writer.PlayOneShot(typeDing, 0.7f);
             Invoke("ClearText", clearDelay);
         }
     }
