@@ -48,10 +48,9 @@ public class Air : MonoBehaviour
         }
     }
 
-    public string airString()
+    public int returnAir()
     {
-        string result = $"{air}";
-        return result;
+        return air;
     }
     
 }

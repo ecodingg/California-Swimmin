@@ -140,3 +140,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dba6527e54ae46549aa6a82219e9456a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textBox: {fileID: 0}
+  fishText: 

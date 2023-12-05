@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fish
+  - Level
   layers:
   - Default
   - TransparentFX

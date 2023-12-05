@@ -2,13 +2,21 @@ using UnityEngine;
 
 public class DeleteOnCollision : MonoBehaviour
 {
-    void OnCollisionEnter(Collision collision)
+
+    public DisplayText textBox;
+    public string fishText;
+    public fishCollection fishy;
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the colliding object is the player
         if (collision.gameObject.CompareTag("Player"))
         {
-            // If it is the player, destroy this game object
+            //Delete gameobject
+            Debug.Log("Player Detected");
             Destroy(gameObject);
+            textBox.fishInfo(fishText);
+            fishy.collectFish(1);
         }
     }
 }

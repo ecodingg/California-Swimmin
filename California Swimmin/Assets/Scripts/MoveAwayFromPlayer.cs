@@ -14,20 +14,30 @@ public class MoveAwayFromPlayer : MonoBehaviour
             Debug.Log("Fish too close");
             MoveAway();
         }
+
     }
 
     void MoveAway()
     {
         // Calculate the direction from the object to the player
-        Vector3 directionToPlayer = transform.position - player.transform.position;
+        Vector2 directionToPlayer = (Vector2)transform.position - (Vector2)player.transform.position;
 
         // Normalize the direction vector to get a unit vector
         directionToPlayer.Normalize();
 
         // Calculate the target position away from the player
-        Vector3 targetPosition = transform.position + directionToPlayer * moveSpeed * Time.deltaTime;
+        Vector2 targetPosition = (Vector2)transform.position + (directionToPlayer * moveSpeed * Time.deltaTime);
 
         // Move the object towards the target position
-        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime);
+        transform.position = Vector2.Lerp((Vector2)transform.position, targetPosition, Time.deltaTime);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Level"))
+        {
+            Debug.Log("Hit Seawall");
+            enabled = false;
+        }
     }
 }
