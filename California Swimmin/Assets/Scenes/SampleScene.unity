@@ -133,6 +133,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
   m_PrefabInstance: {fileID: 4323049724393881695}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &217909384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 217909386}
+  - component: {fileID: 217909385}
+  m_Layer: 0
+  m_Name: seaweed (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &217909385
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217909384}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1ca91d6921892be4b9ce137b2683e11c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 14.78, y: 19.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &217909386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217909384}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 64.20192, y: 7.385812, z: -1.0062938}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &222563548
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,8 +303,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54
-  m_fontSizeBase: 54
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -534,7 +618,8 @@ PrefabInstance:
       objectReference: {fileID: 730242868}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: fishText
-      value: Wah
+      value: The California Sheephard is part of the wrasse family and is native
+        to the California Coast.
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: gameObject
@@ -562,11 +647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6
+      value: 7.86
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.83
+      value: 7.86
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_RootOrder
@@ -623,7 +708,7 @@ PrefabInstance:
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ca77b70d9e41e840b87f8054e3ea87c, type: 3}
+      objectReference: {fileID: 21300000, guid: 475695344e6b5a24fb2e55588bbd9ed8, type: 3}
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -642,7 +727,7 @@ PrefabInstance:
       objectReference: {fileID: 7296157856795728489}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Name
-      value: fish_midLeft
+      value: california sheephard
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_TagString
@@ -795,6 +880,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637660022}
   m_CullTransparentMesh: 1
+--- !u!1 &675890480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 675890482}
+  - component: {fileID: 675890481}
+  m_Layer: 0
+  m_Name: seaweed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &675890481
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675890480}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1ca91d6921892be4b9ce137b2683e11c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 14.78, y: 19.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &675890482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675890480}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 42.171925, y: -19.65419, z: -1.0062938}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730242863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,13 +1312,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858311517}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: 64.6242, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 31.271923, y: 53.47001, z: -1.0062938}
   m_LocalScale: {x: 8.086672, y: 7.9243503, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &858311520
 BoxCollider2D:
@@ -1177,6 +1346,174 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 19.2, y: 9.461945}
   m_EdgeRadius: 0
+--- !u!1 &1006327873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1006327875}
+  - component: {fileID: 1006327874}
+  m_Layer: 0
+  m_Name: seaweed (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1006327874
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006327873}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1ca91d6921892be4b9ce137b2683e11c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 14.78, y: 19.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1006327875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006327873}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 67.77193, y: 7.385812, z: -1.0062938}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1087495986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087495988}
+  - component: {fileID: 1087495987}
+  m_Layer: 0
+  m_Name: seaweed (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1087495987
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087495986}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1ca91d6921892be4b9ce137b2683e11c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 14.78, y: 19.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1087495988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087495986}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 65.31192, y: 7.385812, z: -1.0062938}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1186995304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,7 +1615,7 @@ PrefabInstance:
       objectReference: {fileID: 730242868}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: fishText
-      value: mann
+      value: The Giant Kelpfish prays on crustaceans, molluscs, and other small fishes.
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: gameObject
@@ -1386,7 +1723,7 @@ PrefabInstance:
       objectReference: {fileID: 7296157856795728489}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Name
-      value: fish_topRight
+      value: giant kelpfish
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_TagString
@@ -1421,7 +1758,7 @@ PrefabInstance:
       objectReference: {fileID: 730242868}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: fishText
-      value: yippee
+      value: The Blueband Goby can be seen from Monteray Bay, California to Peru!
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: gameObject
@@ -1429,19 +1766,19 @@ PrefabInstance:
       objectReference: {fileID: 1496695378}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Size.x
-      value: 6.472473
+      value: 2.9153442
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Size.y
-      value: 3.374834
+      value: 1.6833273
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Offset.x
-      value: 0.051627636
+      value: -0.035440743
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Offset.y
-      value: 0.056447804
+      value: -0.16743201
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
@@ -1449,11 +1786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.83
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_RootOrder
@@ -1510,7 +1847,7 @@ PrefabInstance:
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ca77b70d9e41e840b87f8054e3ea87c, type: 3}
+      objectReference: {fileID: 21300000, guid: 64e5d2be09615fe4ba414aad5857d289, type: 3}
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1527,9 +1864,13 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 7296157856795728489}
+    - target: {fileID: 4323049724400288097, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
+      propertyPath: detectionDistance
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Name
-      value: fish_botRight
+      value: blueband goby
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_TagString
@@ -1547,6 +1888,174 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
   m_PrefabInstance: {fileID: 1496695376}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1565663429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1565663431}
+  - component: {fileID: 1565663430}
+  m_Layer: 0
+  m_Name: seaweed (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1565663430
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565663429}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1ca91d6921892be4b9ce137b2683e11c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 14.78, y: 19.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1565663431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565663429}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 63.391922, y: 7.385812, z: -1.0062938}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1604763390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604763392}
+  - component: {fileID: 1604763391}
+  m_Layer: 0
+  m_Name: seaweed (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1604763391
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604763390}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1ca91d6921892be4b9ce137b2683e11c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 14.78, y: 19.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1604763392
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604763390}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 69.07192, y: 7.385812, z: -1.0062938}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1616679910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +2294,7 @@ PrefabInstance:
       objectReference: {fileID: 730242868}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: fishText
-      value: fudge
+      value: The Spotted Scorpionfish spends most of it's time on the ocean floor
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: gameObject
@@ -1793,19 +2302,19 @@ PrefabInstance:
       objectReference: {fileID: 1881462655}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Size.x
-      value: 6.472473
+      value: 4.0285015
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Size.y
-      value: 3.374834
+      value: 2.1062045
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Offset.x
-      value: 0.051627636
+      value: 0.04230094
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Offset.y
-      value: 0.056447804
+      value: 0.056447506
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
@@ -1813,11 +2322,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.83
+      value: 1.88
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_RootOrder
@@ -1825,11 +2334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1874,7 +2383,7 @@ PrefabInstance:
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ca77b70d9e41e840b87f8054e3ea87c, type: 3}
+      objectReference: {fileID: 21300000, guid: 83370c63cef60b940888c8dc92635ef3, type: 3}
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1893,7 +2402,7 @@ PrefabInstance:
       objectReference: {fileID: 7296157856795728489}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Name
-      value: fish_midRight
+      value: spotted scorpionfish
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_TagString
@@ -1942,6 +2451,14 @@ Transform:
   - {fileID: 1745986846}
   - {fileID: 494705996}
   - {fileID: 1186995305}
+  - {fileID: 858311519}
+  - {fileID: 675890482}
+  - {fileID: 1604763392}
+  - {fileID: 1006327875}
+  - {fileID: 2011372146}
+  - {fileID: 1087495988}
+  - {fileID: 217909386}
+  - {fileID: 1565663431}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1966,7 +2483,7 @@ PrefabInstance:
       objectReference: {fileID: 730242868}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: fishText
-      value: hehe
+      value: The Giant Sea Bass can weigh up to 562lbs.
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: gameObject
@@ -1974,19 +2491,19 @@ PrefabInstance:
       objectReference: {fileID: 1903006746}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Size.x
-      value: 6.472473
+      value: 12.181308
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Size.y
-      value: 3.374834
+      value: 6.4717817
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Offset.x
-      value: 0.051627636
+      value: 0.07028532
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Offset.y
-      value: 0.056447804
+      value: 0.18704176
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_IsTrigger
@@ -1998,11 +2515,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.83
+      value: 6.29
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_RootOrder
@@ -2010,11 +2527,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2056,13 +2573,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 18040ea18ba9e4e4aa8b2ebed49254df, type: 3}
     - target: {fileID: 4323049724400288097, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 7296157856795728489}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Name
-      value: fish_botMid
+      value: giant sea bass
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_TagString
@@ -2097,7 +2618,8 @@ PrefabInstance:
       objectReference: {fileID: 730242868}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: fishText
-      value: Doh
+      value: The Treefish is a species of ray-finned fish belonging to the rockfish
+        family.
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: gameObject
@@ -2205,7 +2727,7 @@ PrefabInstance:
       objectReference: {fileID: 7296157856795728489}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Name
-      value: fish_botLeft
+      value: treefish
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_TagString
@@ -2223,6 +2745,90 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
   m_PrefabInstance: {fileID: 2006498363}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2011372144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2011372146}
+  - component: {fileID: 2011372145}
+  m_Layer: 0
+  m_Name: seaweed (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2011372145
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011372144}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 1ca91d6921892be4b9ce137b2683e11c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 14.78, y: 19.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2011372146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011372144}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 66.57192, y: 7.385812, z: -1.0062938}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1901187633}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2114669686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,7 +2988,8 @@ PrefabInstance:
       objectReference: {fileID: 730242868}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: fishText
-      value: Yar
+      value: The Garibaldi is part of the damelsfish family, as it's color is similar
+        to Italian General  Giuseppe Garibaldi
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288029, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: gameObject
@@ -2410,11 +3017,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6
+      value: 7.23
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288030, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.83
+      value: 7.23
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288031, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_RootOrder
@@ -2471,7 +3078,7 @@ PrefabInstance:
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4ca77b70d9e41e840b87f8054e3ea87c, type: 3}
+      objectReference: {fileID: 21300000, guid: 6cf70623c3df65142bc1f73cd8635cf6, type: 3}
     - target: {fileID: 4323049724400288096, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -2490,7 +3097,7 @@ PrefabInstance:
       objectReference: {fileID: 7296157856795728489}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_Name
-      value: fish_topLeft
+      value: garibaldi
       objectReference: {fileID: 0}
     - target: {fileID: 4323049724400288098, guid: 5a75843afb261b74b876dabfb20b23d3, type: 3}
       propertyPath: m_TagString

@@ -12,12 +12,17 @@ public class fishCollection : MonoBehaviour
         totalFish += i;
         Debug.Log(totalFish);
         if (totalFish == 7){
-            SceneManager.LoadScene("end");
+            Invoke("endGame", 2.5f);
         }
     }
 
     public int returnFish()
     {
         return totalFish;
+    }
+
+    private void endGame()
+    {
+        SceneManager.LoadScene("end");
     }
 }

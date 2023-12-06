@@ -38,8 +38,11 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - TitleImage
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Canvas
+    uniqueID: 1743998849
     locked: 0

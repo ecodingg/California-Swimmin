@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Congrats!!! You Won!!!
+  m_text: You ran out of Air! :(
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 977d8e40a936bae43a7b840e241dbcca, type: 2}
   m_sharedMaterial: {fileID: 7530657071128699598, guid: 977d8e40a936bae43a7b840e241dbcca, type: 2}

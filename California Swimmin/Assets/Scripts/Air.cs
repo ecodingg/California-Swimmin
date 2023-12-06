@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Air : MonoBehaviour
 {
@@ -41,6 +42,10 @@ public class Air : MonoBehaviour
         if(playerPosition.y < waterPosition.y){
             Debug.Log("Below the Water Line");
             air = airLoss();
+            if(air == 0)
+            {
+                SceneManager.LoadScene("badEnd");
+            }
         }
         else{
             Debug.Log("Above the Water Line");
